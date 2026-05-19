@@ -1,18 +1,18 @@
 ## 🔍 Tổng quan
 
-Trò chơi cờ Caro (hay còn gọi là Five-In-A-Row nhưng được biến thể) là một trò chơi chiến thuật đối kháng dành cho 2 người. Đồ án này mô phỏng bàn cờ kích thước 9x9. Mục tiêu của trò chơi là tạo thành một chuỗi liên tục gồm **4 quân cờ** (theo hàng ngang, dọc hoặc chéo) để giành chiến thắng. Theo luật quy định, trò chơi **không áp dụng luật chặn hai đầu**.
+Trò chơi cờ Caro (biến thể Gomoku) là một trò chơi chiến thuật đối kháng dành cho 2 người. Đồ án này mô phỏng bàn cờ kích thước 9x9. Mục tiêu của trò chơi là tạo thành một chuỗi liên tục gồm **4 quân cờ** (theo hàng ngang, dọc hoặc chéo) để giành chiến thắng. Theo luật quy định, trò chơi **không áp dụng luật chặn hai đầu**.
 Trong dự án này, người chơi có thể thi đấu trực tiếp với Tác tử AI. Trí tuệ nhân tạo được xây dựng dựa trên thuật toán **Minimax** kết hợp kỹ thuật **cắt nhánh Alpha-Beta** nhằm tối ưu hóa nước đi. Toàn bộ logic và giao diện được xây dựng hoàn toàn bằng Python với thư viện `tkinter` tiêu chuẩn.
 
 **Tính năng nổi bật:**
-* Đồ họa Cyberpunk Neon với hiệu ứng phát sáng hiển thị trực quan.
-* Tích hợp **Chế độ kiểm thử (Sandbox Mode)** cho phép tự do đặt quân để đo đạc số trạng thái và thời gian tính toán của AI.
-* Cho phép chuyển đổi linh hoạt giữa thuật toán Pure Minimax và Alpha-Beta để so sánh hiệu năng.
+* Đồ họa hiển thị trực quan.
+* Tích hợp **Chế độ kiểm thử** cho phép tự do đặt quân để đo đạc số trạng thái và thời gian tính toán của AI.
+* Cho phép chuyển đổi linh hoạt giữa thuật toán Minimax nguyên bản và Alpha-Beta để so sánh hiệu năng.
 
 ---
 
 ## 📌 Yêu cầu hệ thống (Requirement)
 
-Chương trình được viết hoàn toàn bằng Python thuần và sử dụng thư viện đồ họa GUI `tkinter` (đã được tích hợp sẵn trong thư viện chuẩn của Python). Do đó, bạn không cần cài đặt thêm thư viện bên ngoài như `pygame`.
+Chương trình được viết hoàn toàn bằng Python thuần và sử dụng thư viện đồ họa GUI `tkinter` (đã được tích hợp sẵn trong thư viện chuẩn của Python). Do đó không cần thiết cài đặt thêm thư viện bên ngoài.
 
 Yêu cầu duy nhất:
 * Cài đặt **Python 3.x** trở lên.
