@@ -2,7 +2,7 @@
 import time
 from tkinter import *
 import ai_logic 
-import game_rules # Import file luật chơi vừa tách
+import game_rules
 # UI
 BG_COLOR = "#0D0E15"        
 FRAME_BG = "#1A1D2B"        
