@@ -1,0 +1,2 @@
+# Dự án chỉ sử dụng các thư viện tiêu chuẩn của Python (tkinter, time, copy).
+# Không cần cài đặt thêm thư viện bên ngoài (No external dependencies required).
