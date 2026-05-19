@@ -19,12 +19,14 @@ Yêu cầu duy nhất:
 
 ---
 ## 🎮 Cách tiến hành chơi
+- Ở bước đầu, người chơi cần mở 3 file chương trình được cho và run 2 file ai_logic.py và game_rules.py trước, cuối cùng mới run file main.py để giao diện hiện ra
 - Ở giao diện ảnh dưới, người chơi có thể lựa chọn thi đấu trực tiếp với AI với hai lựa chọn **BẠN ĐI TRƯỚC (X)** hoặc **AI ĐI TRƯỚC(X)**. Hệ thống sẽ mặc định ban đầu chạy **AI: Alpha-Beta** và người chơi có thể đổi sang lựa chọn **AI: Minimax** (không khuyến khích vì rất chậm, chỉ phù hợp để kiểm thử). Khi này thì người chơi chỉ việc bám theo luật chơi bên trên để thi đấu với AI
 - Khi muốn kiểm định thế cờ, người chơi có thể bấm vào chế độ kiểm thử để đưa sang chế độ ON và xây dựng tùy thích ván cờ bằng cách đặt quân lần lượt X và O. Nếu muốn tìm nước đi tốt nhất sau thế cờ đó thì có thể chọn **Nước đi AI gợi ý** 
 - Nút RESET hoạt động trên cơ chế xóa sạch toàn bộ quân cờ và đưa về trạng thái ban đầu của bàn cờ.
 <p align="center">
   <img src="Images/image-3.png" width="300">
   </p>
+  
 - Ván cờ kết thúc khi màn hình hiển thị như sau (Đối với máy tính):
 <p align="center">
   <img src="Images/image-4.png" width="300">
